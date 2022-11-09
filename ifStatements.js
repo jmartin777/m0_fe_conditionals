@@ -24,6 +24,30 @@ if (weather === "sunny") {
 } else {
   console.log("good to go!");
 }
+// if it is sunny, print "sunscreen"
+var weather = "sunny"
+if (weather === "sunny") {
+  console.log("sunscreen");
+}
+// if it is rainy, print "umbrella"
+var weather = "rainy"
+if (weather === "rainy") {
+  console.log("umbrella");
+}
+// if it is snowy, print "coat"
+var weather = "snowy"
+if (weather === "snowy") {
+  console.log("coat");
+}
+// if it is icy, print "yak traks"
+var weather = "icy"
+if (weather === "icy") {
+  console.log("yak traks");
+}
+
+
+
+
 
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
