@@ -33,7 +33,7 @@ console.log("is numberTeachers not equal to numberStudents?", numberTeachers !==
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
-console.log("is numberStudents greater than or equal to 20?", numberStudents >= 20)
+console.log("is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
@@ -41,11 +41,11 @@ console.log(" is numberStudents greater than or equal to 21?", numberStudents >=
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
-console.log("is numberStudents less than or equal to 20?", numberStudents <= 20)
+console.log("is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
-console.log("is numberStudents less than or equal to 21?", numberStudents <= 21)
+console.log("is numberStudents less than or equal to 21?", numberStudents <= 21);
 // this should log: true
 
 
@@ -109,15 +109,21 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
+// true
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
+//false
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age <= 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+
+// ANSWER: `lovesToPlay` is defined as a boolean. `age` is not a defined as a boolean but an integer.
+// To translate it , I declared the variable `age`(assigned 1) was less than or equal to the integer (1) to 
+// have a boolean outcome of "true". 
