@@ -60,21 +60,33 @@ console.log("is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+// Logged comparison "is 4 less than 9"?
+// true
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+// Variable "books" declared and assigned `3`. Logged comparison "is 4 less than declared 
+// variable `books`(assigned 3)"?
+// false
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// Variable "friends" declared and assigned `6`. Variable siblings declared and assigned `2`.
+// Logged comparison "is declared variable `friends`(assigned 6) greater than declared variable
+// `siblings`(assigned 2)"?
+// true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// Variable "attendees" declared and assigned "9". Variable "meals" declared and assigned "8"
+// Logged comparison "is declared variable `attendees`(assigned 9) not strictly equal to declared variable
+// `meals`(assigned 8)"?
+// true
 
 
 // #-------------------
